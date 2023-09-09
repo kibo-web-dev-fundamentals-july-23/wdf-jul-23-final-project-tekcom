@@ -263,9 +263,13 @@
                 <ul>
                     <li>
                         <details>
-                            <summary>P1</summary>
+                            <summary>Getting SSH key to connect Github with Vscode</summary>
                             <ol>
-                                <li>sln1</li>
+                                <li>
+                                    <p>Using the file explorer, navigate to the .ssh folder (Usually its something like C:\Users\User\.ssh
+                                    <span>Open the file ed_25119.pub using VSCode.</span>
+                                    Copy the key from VSCode. It should be something like: <span>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICSSt5HLJYoTf2OwREwLmOd3Lg1XFEn8+dlyhlTibGe4 your.name@kibo.school</span></p>
+                                </li>
                                 <li>sln2</li>
                                 <li>sln3</li>
                             </ol>
@@ -273,9 +277,25 @@
                     </li>
                     <li>
                         <details>
-                            <summary>P2</summary>
+                            <summary>Adding SSH key to Github</summary>
                             <ol>
-                                <li>sln1</li>
+                                <li>Navigate to Github in your browser</li>
+                                <li>In the upper-right corner of any page, click your profile photo, then click Settings.</li>
+                                <li>In the "Access" section of the sidebar, click SSH and GPG keys.</li>
+                                <li>Click New SSH key or Add SSH key.</li>
+                                <li>In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Dell Windows laptop, you might call this key "Personal Dell".</li>
+                                <li>Paste your key into the "Key" field.</li>
+                                <li>Click Add SSH key.</li>
+                            </ol>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>View SSH Keys Added on Github</summary>
+                            <ol>
+                                <li>
+                                    <a href="https://github.com/settings/keys">https://github.com/settings/keys</a>
+                                </li>
                                 <li>sln2</li>
                                 <li>sln3</li>
                             </ol>
@@ -283,11 +303,24 @@
                     </li>
                     <li>
                         <details>
-                            <summary>P3</summary>
+                            <summary>Issue adding ssh key to Github</summary>
                             <ol>
-                                <li>sln1</li>
-                                <li>sln2</li>
+                                <li>
+                                    <img src="images/wrongfolder_github_key.png" alt="">
+                                </li>
+                                <li>The key you are pasting is not formatted the way Github wants. That might mean you have copied from the wrong file (id_ed25519 instead of id_ed25519.pub) or that you’ve left out a part of the file.</li>
                                 <li>sln3</li>
+                            </ol>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>Github repo deleted</summary>
+                            <ol>
+                                <li>
+                                    You can accept the project again from the course page.
+                                </li>
+                                <li>sln2</li>
                             </ol>
                         </details>
                     </li>
