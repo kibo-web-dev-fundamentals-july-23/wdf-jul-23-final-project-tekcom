@@ -1,0 +1,31 @@
+/* colors */
+html{
+    --footer: #5D576B;
+    --footer2: #A6CFD5;
+    --header: #8884FF;
+    --transition: #D7BCE8;
+    --body: #E8CEE4;
+    --transition2: #E56399;
+}
+
+body{
+    background-color: var(--body);
+}
+/* -------------------header-------------------- */
+header{
+    background-color: var(--header);
+}
+
+header{
+    padding: 15px;
+    margin: 0px;
+    font-size: large;
+    text-align: center;
+}
+
+/* --------------footer--------------- */
+footer{
+    background-color: var(--footer2);
+    text-align: center;
+    padding: 61px;
+}
