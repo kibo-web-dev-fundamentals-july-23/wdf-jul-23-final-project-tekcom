@@ -1,19 +1,25 @@
 /* colors */
 html{
     --footer: #5D576B;
-    --footer2: #A6CFD5;
-    --header: #8884FF;
+    --footer2: #7A6B69;
+    --header: #35CE8D;
     --transition: #D7BCE8;
-    --body: #E8CEE4;
-    --transition2: #E56399;
+    --body: #BCD8B7;
+    --transition2: #6BA292;
 }
 
 body{
     background-color: var(--body);
+    font-family: 'Poppins', sans-serif;
 }
 /* -------------------header-------------------- */
 header{
     background-color: var(--header);
+    /* background-image: url(images/purple-young-intense-worried-male-student-badly-want-dream-come-true-cross-fingers-good-lu.jpg); */
+}
+
+h1{
+    text-transform: uppercase;
 }
 
 header{
@@ -28,4 +34,54 @@ footer{
     background-color: var(--footer2);
     text-align: center;
     padding: 61px;
+}
+
+/* --Icons and h3's-- */
+.content{
+    padding: 0;
+}
+
+.content:hover{
+    background-color: var(--transition2);
+}
+
+/* --summary-- */
+summary {
+    font-weight: bold;
+}
+
+/* --List-- */
+ul {
+    list-style: none;
+}
+
+/* --Layouts-- */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    /* display: block; */
+    /* padding: none;
+    margin-bottom: 50px; */
+}
+
+/* .tools {
+    margin: 50px;
+} */
+
+#gradecope .icon{
+    padding: 500px;
+    background-color: #35CE8D;
+}
+
+#woolf .icon{
+    padding: 50px;
+    background-color: #35CE8D;
+}
+
+#discord .icon{
+    padding: 50px;
+    background-color: #35CE8D;
 }
