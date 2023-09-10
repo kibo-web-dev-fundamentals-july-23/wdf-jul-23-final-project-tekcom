@@ -59,9 +59,44 @@ ul {
 main {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.icon {
+/* -------------align icons-------- */
+#gradescope .icon{
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+#woolf .icon{
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+#discord .icon{
+    margin-top: 10px;
+    margin-bottom: -5px;
+}
+#github .icon{
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+#zoom .icon{
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .icon {
     /* display: block; */
     /* padding: none;
     margin-bottom: 50px; */
@@ -71,7 +106,7 @@ main {
     margin: 50px;
 } */
 
-#gradecope .icon{
+/* #gradecope .icon{
     padding: 500px;
     background-color: #35CE8D;
 }
@@ -84,4 +119,4 @@ main {
 #discord .icon{
     padding: 50px;
     background-color: #35CE8D;
-}
+} */
