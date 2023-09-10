@@ -11,6 +11,8 @@ html{
 body{
     background-color: var(--body);
     font-family: 'Poppins', sans-serif;
+    width: 1300px;
+    margin: auto;
 }
 /* -------------------header-------------------- */
 header{
@@ -33,7 +35,7 @@ header{
 footer{
     background-color: var(--footer2);
     text-align: center;
-    padding: 61px;
+    padding: 15px;
 }
 
 /* --Icons and h3's-- */
@@ -61,6 +63,9 @@ main {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+main{
+    margin-bottom: 250px;
+}
 
 /* -------------align icons-------- */
 #gradescope .icon{
@@ -83,40 +88,14 @@ main {
     margin-top: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .icon {
-    /* display: block; */
-    /* padding: none;
-    margin-bottom: 50px; */
+/* ------------list width------- */
+ul{
+    width: 600px;
 }
 
-/* .tools {
-    margin: 50px;
-} */
-
-/* #gradecope .icon{
-    padding: 500px;
-    background-color: #35CE8D;
+li{
+    margin-bottom: 30px;
 }
 
-#woolf .icon{
-    padding: 50px;
-    background-color: #35CE8D;
-}
 
-#discord .icon{
-    padding: 50px;
-    background-color: #35CE8D;
-} */
+
