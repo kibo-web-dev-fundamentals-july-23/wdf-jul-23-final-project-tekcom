@@ -1,21 +1,3 @@
-const content = document.querySelector(".tool .content");
-
-const problem = document.querySelectorAll(".problem");
-
-for(items of problem){
-    items.style.display = "none"
-}
-
-// ---------------------icons----------
-const icon = document.querySelector(".tool .icon")
-const kiboEmail = document.querySelector("#email h3")
-
-
-icon.addEventListener("mouseover", function event(){
-    for(items of problem){
-        items.style.display = "block";
-    }
-})
 
 
 // -------------title hover-----------
@@ -49,3 +31,20 @@ links.addEventListener("mouseover", function event(){
         items.style.color = "orange"
     }
 })
+
+
+// const content = document.querySelector(".tool .content");
+
+// const problem = document.querySelectorAll(".problem");
+
+
+// // ---------------------icons----------
+// const icon = document.querySelector(".tool .icon")
+// const kiboEmail = document.querySelector("#email h3")
+
+
+// icon.addEventListener("mouseover", function event(){
+//     for(items of problem){
+//         items.style.display = "block";
+//     }
+// })
